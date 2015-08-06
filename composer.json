@@ -1,0 +1,27 @@
+{
+  "name": "fsv-dev/sis-repository",
+  "type": "library",
+  "description": "Nette\DI extension for SIS repository",
+  "keywords": [
+    "library",
+    "sis",
+    "repository"
+  ],
+  "homepage": "https://github.com/fsv-dev/sis-repository",
+  "license": [
+    "GPL-2.0"
+  ],
+  "authors": [
+    {
+      "name": "Vaclav Kraus",
+      "homepage": "http://vk-web.cz"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "nette/database": "~2.3"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  }
+}
