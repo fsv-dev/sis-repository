@@ -23,7 +23,7 @@ class SISExtension extends Nette\DI\CompilerExtension
 		$config = $this->getConfig($this->default);
 
 		$builder = $this->getContainerBuilder();
-		$builder->addDefinition($this->prefix('sis'))
+		$builder->addDefinition($this->prefix('sis-repository'))
 			->setClass('SIS\Repository')
 			->addSetup('setServer', array($config['server']))
 			->addSetup('setUser', array($config['user']))

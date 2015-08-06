@@ -1,7 +1,7 @@
 {
   "name": "fsv-dev/sis-repository",
   "type": "library",
-  "description": "Nette\DI extension for SIS repository",
+  "description": "Nette DI extension for SIS repository",
   "keywords": [
     "library",
     "sis",
