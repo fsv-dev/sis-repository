@@ -23,6 +23,15 @@ extensions:
     	port: 1111
     	sid: 'sid'
     	protocol: 'TCP' # default value
+    	charset: 'UTF8' # default value
+    	facultyCode: 12345
     	
 ```
+
+## Simple use
+
+```php
+$this->searchForStudent($name, $surname) // Returns simple student's info (array)
+$this->getStudentInfo($sident) // Returns more information of student (array)
+$this->getStudyInfo($sident) // Returns all student's programs, subjects and credits (multi array)
 
